@@ -82,6 +82,6 @@ Telegram bot for Whisper Message.
 
 ## Importent
 
-You can forkand edite this repositery but add us in credit🤓
+You can fork and edite this repositery but add us in credit🤓
 
 --------------------------------------------------END.........................................................
