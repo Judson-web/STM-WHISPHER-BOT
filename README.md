@@ -80,4 +80,8 @@ Telegram bot for Whisper Message.
 
 - [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
 
+## Importent
+
+You can forkand edite this repositery but add us in credit🤓
+
 --------------------------------------------------END.........................................................
