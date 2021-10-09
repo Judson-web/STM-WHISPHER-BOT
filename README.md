@@ -1,8 +1,8 @@
-# Whisper Bot [@WhisperStarkBot](https://t.me/WhisperStarkBot)
+# Whisper Bot 
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/StarkBotsIndustries/WhisperBot"><img src="https://telegra.ph/file/33af12f457b16532e1383.jpg" width="5000"></a></p>
+<p align="center"><a href="https://github.com/Judson-web/STM-WHISPHER-BOT"><img src="https://telegra.ph/file/33af12f457b16532e1383.jpg" width="5000"></a></p>
 
 Telegram bot for Whisper Message.
 
@@ -12,7 +12,7 @@ Telegram bot for Whisper Message.
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkBotsIndustries/WhisperBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/STM-WHISPHER-BOT)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`.
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
@@ -26,7 +26,7 @@ Telegram bot for Whisper Message.
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/StarkBotsIndustries/WhisperBot
+   git clone https://github.com/Judson-web/STM-WHISPHER-BOT
    ```
    
 2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only.
@@ -61,8 +61,8 @@ Telegram bot for Whisper Message.
 
 ## Stats
 
-[![GitHub forks](https://img.shields.io/github/forks/StarkBotsIndustries/WhisperBot.svg?style=social&label=Fork&maxAge=25920000)](https://github.com/StarkBotsIndustries/WhisperBot/network/) [![GitHub stars](https://img.shields.io/github/stars/StarkBotsIndustries/WhisperBot.svg?style=social&label=Star&maxAge=25920000)](https://github.com/StarkBotsIndustries/WhisperBot/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/StarkBotsIndustries/WhisperBot.svg?style=social&label=Watch&maxAge=25920000)](https://github.com/StarkBotsIndustries/WhisperBot/watchers/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/StarkBotsIndustries/WhisperBot/graphs/commit-activity)
+[![GitHub forks](https://img.shields.io/github/forks/Judson-web/STM-WHISPHER-BOT.svg?style=social&label=Fork&maxAge=25920000)](https://github.com/Judson-web/STM-WHISPHER-BOT/network/) [![GitHub stars](https://img.shields.io/github/stars/Judson-web/STM-WHISPHER-BOT.svg?style=social&label=Star&maxAge=25920000)](https://github.com/Judson-web/STM-WHISPHER-BOT/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/Judson-web/STM-WHISPHER-BOT.svg?style=social&label=Watch&maxAge=25920000)](https://github.com/Judson-web/STM-WHISPHER-BOT/watchers/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Judson-web/STM-WHISPHER-BOT/graphs/commit-activity)
 
 ## License
 
@@ -70,7 +70,7 @@ Telegram bot for Whisper Message.
 
 ## Contributing
 
-[![GitHub contributors](https://img.shields.io/github/contributors/StarkBotsIndustries/WhisperBot.svg)](https://github.com/StarkBotsIndustries/WhisperBot/graphs/contributors/)
+[![GitHub contributors](https://img.shields.io/github/contributors/Judson-web/STM-WHISPHER-BOT.svg)](https://github.com/Judson-web/STM-WHISPHER-BOT/graphs/contributors/)
 
 > Contributions are heartily accepted.
 
@@ -80,16 +80,4 @@ Telegram bot for Whisper Message.
 
 - [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
 
-## Support
-
-Channel :- [@StarkBots](https://t.me/StarkBots)
-
-Group Chat :- [@StarkBotsChat](https://t.me/StarkBotsChat)
-
-## :)
-
-[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/StarkBotsIndustries)
-
-[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/StarkBotsIndustries)
+--------------------------------------------------END.........................................................
