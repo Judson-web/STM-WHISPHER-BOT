@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://github.com/Judson-web/STM-WHISPHER-BOT"><img src="https://telegra.ph/file/33af12f457b16532e1383.jpg" width="5000"></a></p>
+<p align="center"><a href="https://github.com/Judson-web/STM-WHISPHER-BOT"><img src="https://telegra.ph/file/3c4c427a5209208cd3f85.jpg" width="5000"></a></p>
 
 Telegram bot for Whisper Message.
 
