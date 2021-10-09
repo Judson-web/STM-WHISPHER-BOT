@@ -17,11 +17,11 @@ from WhisperBot.bot_users import check_for_users
 
 main = [
     InlineQueryResultArticle(
-        title="Whisper Bot",
+        title="Rosamol ❤️",
         input_message_content=InputTextMessageContent("Write Target User's @username or id at the end of your message."),
         url="https://t.me/storytym",
         description="Write Target User's @username or id at the end of your message.",
-        thumb_url="https://telegra.ph/file/3c4c427a5209208cd3f85.jpg",
+        thumb_url="https://telegra.ph/file/8a1ea7c9f16a3259f8e35.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Learn More", url="https://t.me/PooiV2_bot?start=start")],
@@ -83,7 +83,7 @@ async def previous_target(sender):
                       f"A whisper message to {mention}" + " " + text2),
                   url="https://t.me/storytym",
                   description=text2,
-                  thumb_url="https://telegra.ph/file/3c4c427a5209208cd3f85.jpg",
+                  thumb_url="https://telegra.ph/file/8a1ea7c9f16a3259f8e35.jpg",
                   reply_markup=InlineKeyboardMarkup(
                       [
                           [
@@ -154,7 +154,7 @@ async def answer(bot: Client, query):
                         input_message_content=InputTextMessageContent(f"A whisper message to {target_user.mention}" + " " + text2),
                         url="https://t.me/storytym",
                         description=text2,
-                        thumb_url="https://telegra.ph/file/3c4c427a5209208cd3f85.jpg",
+                        thumb_url="https://telegra.ph/file/8a1ea7c9f16a3259f8e35.jpg",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
