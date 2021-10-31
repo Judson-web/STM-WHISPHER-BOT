@@ -20,7 +20,7 @@ main = [
         title="Valerie",
         input_message_content=InputTextMessageContent("നിങ്ങളുടെ സന്ദേശത്തിന്റെ അവസാനം അദ്ദേഹത്തിന്റെ @username അല്ലെങ്കിൽ ID എഴുതുക"),
         url="https://t.me/storytym",
-        description="EX: @Pooi1Bot <Message> @username/id",
+        description="EX: നിങ്ങളുടെ സന്ദേശത്തിന്റെ അവസാനം അദ്ദേഹത്തിന്റെ @username അല്ലെങ്കിൽ ID എഴുതുക",
         thumb_url="https://telegra.ph/file/b83a6a2a8b4ef04b49bff.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -143,8 +143,8 @@ async def answer(bot: Client, query):
                 name = target_user.first_name + target_user.last_name
             else:
                 name = target_user.first_name
-            text1 = f"A whisper message to {name}"
-            text2 = "Only he/she can open it."
+            text1 = f"ഹായ് {name}, നിങ്ങൾക്കുള്ള രഹസ്യ സന്ദേശം!"
+            text2 = "(താങ്കൾക്ക് മാത്രമേ വായിക്കാൻ കഴിയൂ)."
             await query.answer(
                 results=[
                     InlineQueryResultArticle(
@@ -152,7 +152,7 @@ async def answer(bot: Client, query):
                         input_message_content=InputTextMessageContent(f"ഹായ് {target_user.mention}, നിങ്ങൾക്കുള്ള രഹസ്യ സന്ദേശം!" + " " + text2),
                         url="https://t.me/storytym",
                         description=text2,
-                        thumb_url="https://telegra.ph/file/8a1ea7c9f16a3259f8e35.jpg",
+                        thumb_url="https://telegra.ph/file/b83a6a2a8b4ef04b49bff.jpg",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
