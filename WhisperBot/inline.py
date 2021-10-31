@@ -17,15 +17,13 @@ from WhisperBot.bot_users import check_for_users
 
 main = [
     InlineQueryResultArticle(
-        title="Rosamol ❤️",
-        input_message_content=InputTextMessageContent("Write Target User's @username or id at the end of your message."),
+        title="Valerie",
+        input_message_content=InputTextMessageContent("നിങ്ങളുടെ സന്ദേശത്തിന്റെ അവസാനം അദ്ദേഹത്തിന്റെ @username അല്ലെങ്കിൽ ID എഴുതുക"),
         url="https://t.me/storytym",
-        description="Write Target User's @username or id at the end of your message.",
-        thumb_url="https://telegra.ph/file/8a1ea7c9f16a3259f8e35.jpg",
+        description="EX: @Pooi1Bot <Message> @username/id",
+        thumb_url="https://telegra.ph/file/b83a6a2a8b4ef04b49bff.jpg",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Learn More", url="https://t.me/PooiV2_bot?start=start")],
-                [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
                 [InlineKeyboardButton("♥ Movie Group ♥", url="https://t.me/movieshub_group")]
             ]
         ),
@@ -73,22 +71,22 @@ async def previous_target(sender):
             name = first_name + last_name
         except KeyError:
             name = first_name
-        text1 = f"A whisper message to {name}"
-        text2 = "Only he/she can open it."
+        text1 = f"ഹായ് {name}, നിങ്ങൾക്കുള്ള രഹസ്യ സന്ദേശം! "
+        text2 = "(താങ്കൾക്ക് മാത്രമേ വായിക്കാൻ കഴിയൂ)."
         mention = f"[{name}](tg://user?id={receiver})"
         results = [
               InlineQueryResultArticle(
                   title=text1,
                   input_message_content=InputTextMessageContent(
-                      f"A whisper message to {mention}" + " " + text2),
+                      f"ഹായ് {mention}, നിങ്ങൾക്കുള്ള രഹസ്യ സന്ദേശം!" + " " + text2),
                   url="https://t.me/storytym",
                   description=text2,
-                  thumb_url="https://telegra.ph/file/8a1ea7c9f16a3259f8e35.jpg",
+                  thumb_url="https://telegra.ph/file/b83a6a2a8b4ef04b49bff.jpg",
                   reply_markup=InlineKeyboardMarkup(
                       [
                           [
                               InlineKeyboardButton(
-                                  "🔐 Show Message 🔐",
+                                  "🤫 Show Message 🤫",
                                   callback_data=str(data_list),
                               )
                           ]
@@ -151,7 +149,7 @@ async def answer(bot: Client, query):
                 results=[
                     InlineQueryResultArticle(
                         title=text1,
-                        input_message_content=InputTextMessageContent(f"A whisper message to {target_user.mention}" + " " + text2),
+                        input_message_content=InputTextMessageContent(f"ഹായ് {target_user.mention}, നിങ്ങൾക്കുള്ള രഹസ്യ സന്ദേശം!" + " " + text2),
                         url="https://t.me/storytym",
                         description=text2,
                         thumb_url="https://telegra.ph/file/8a1ea7c9f16a3259f8e35.jpg",
@@ -159,7 +157,7 @@ async def answer(bot: Client, query):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "🔐 Show Message 🔐",
+                                        "🤫 Show Message 🤫",
                                         callback_data=str(data_list),
                                     )
                                 ]
