@@ -4,57 +4,16 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}.
-Welcome to {}
+സ്വാഗതം {}, ഞാനാണ് {} 😉
 
-I am the Master of Whisperers (like Varys in Game of Thrones).
+ഗ്രൂപ്പുകളിൽ രഹസ്യ സന്ദേശങ്ങൾ അയക്കാൻ നിങ്ങൾക്ക് എന്നെ ഉപയോഗിക്കാം.
 
-You can use me to send whispers to your friend in groups and channels (even if I'm not there).
-Only that friend and you will be able to read the message even though others are in same group. 
+വളരെ എളുപ്പമാണ്.
+നിങ്ങളുടെ ഗ്രൂപ്പ് ചാറ്റിൽ @pooiv2_bot എന്നു ടൈപ്പ് ചെയ്ത് ഒരു സ്‌പേസ് ഇട്ടതിനു ശേഷം നിങ്ങളുടെ രഹസ്യ സന്ദേശം ടൈപ്പ് ചെയ്യുക. എന്നിട്ട് അവസാന ഭാഗത്ത് അത് വായിക്കേണ്ട ആളുടെ @username കൊടുക്കുക.
 
-To see how to use me press 'How to Use' below.
+ഉദാഹരണത്തിന്:
+@pooiv2_bot അവൾക്കു നിന്നെ ഇഷ്ടമാണ്... @VAMPIRE_KING_NO_1
 
-By @StarkBots
-    """
-
-    # Home Button
-    home_buttons = [
-        [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
-    ]
-    # Rest Buttons
-    buttons = [
-        [
-            InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")
-        ],
-        [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
-    ]
-
-    # Help Message
-    HELP = """
-Just type the message in below format in any chat.
-
-`@WhisperStarkBot your_message friend_username/id`
-    """
-
-    # About Message
-    ABOUT = """
-**About This Bot** 
-
-Bot created by @StarkBots
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/WhisperBot)
-
-Inspired By : nnbbot
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
+ഇനി, വായിക്കേണ്ട ആളുടെ username അറിയില്ല എങ്കിൽ..
+ആർക്കാണോ രഹസ്യ സന്ദേശം അയക്കേണ്ടത്, അയാളുടെ ഏതെങ്കിലും ഒരു മെസ്സേജ് എനിക്ക് ഫോർവേഡ് ചെയ്യൂ.. ബാക്കി ഞാൻ ചെയ്തു തരാം!
     """
