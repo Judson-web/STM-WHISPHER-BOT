@@ -49,9 +49,6 @@ async def _callbacks(bot, callback_query: CallbackQuery):
 			q = SESSION.query(Whispers).get(specific)
 			if q:
 				await callback_query.answer(q.message, show_alert=True)
-			else:
-				await callback_query.answer("Message Not Found", show_alert=True)
-			SESSION.commit()
 		else:
 			await callback_query.answer("Sorry, you cannot see this whisper as it is not meant for you!", show_alert=True)
 		await check_for_users(data_list)
