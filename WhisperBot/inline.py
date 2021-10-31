@@ -86,7 +86,7 @@ async def previous_target(sender):
                       [
                           [
                               InlineKeyboardButton(
-                                  "🤫 Show Message 🤫",
+                                  "✉️ വായിക്കുക 🔐",
                                   callback_data=str(data_list),
                               )
                           ]
@@ -157,7 +157,7 @@ async def answer(bot: Client, query):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "🤫 Show Message 🤫",
+                                        "✉️ വായിക്കുക 🔐",
                                         callback_data=str(data_list),
                                     )
                                 ]
